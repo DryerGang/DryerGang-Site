@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1">
+        <title>dryergang</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+
+			a:link,a:visited,a:active {
+					color: #f1b0d4;
+					text-decoration: none;
+					font-size: 14px;
+			}
+		
+			a:hover {
+				transition: 0.7s;
+				color: white;
+			}
+			body {
+					background-color:#131219;
+					font-family:monospace;
+			}
+			.page {
+					display: none;
+					position: relative;
+					top: 45%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+                    z-index: 0;
+			}
+
+			.fading {
+					color: #f1b0d4;
+					animation: fading 5s infinite
+					}
+
+			@keyframes fading {
+						0% {
+						opacity: 0
+						}
+
+						50% {
+						opacity: 1
+						}
+
+						100% {
+						opacity: 0
+						}
+					}
+			.button {
+					background-color: #131219;
+					border: 2px;
+					color: white;
+					position: relative;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 15px 30px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 25px;
+					font-family:monospace;
+                    z-index: 0;
+				  }
+	</style>
+
+    <style>
+
+        .glow {
+            position: absolute;
+            color: #fff;
+            display: inline-block;
+            font-size: 1rem;
+            padding: 0;
+            white-space: nowrap;
+            text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 6px #131219, 0 0 8px #131219, 0 0 10px #131219, 0 0 12px #131219, 0 0 14px #131219;
+            animation: glow .59s infinite alternate;
+            z-index: 1;
+        }
+
+        body{
+            background-color:#131219;
+        }
+
+        @keyframes glow {
+            to {
+            text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #f1b0d4, 0 0 16px #f1b0d4, 0 0 20px #f1b0d4, 0 0 24px #f1b0d4, 0 0 28px #f1b0d4;
+            }
+        }
+
+        .text{
+          text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 6px #131219, 0 0 8px #131219, 0 0 10px #131219, 0 0 12px #131219, 0 0 14px #131219;
+          animation: glow .59s infinite alternate;
+        }
+    </style>
+
+    <body>
+		<audio id="player" src="audio/audio.mp3" autoplay=true loop=""></audio>
+		<div id="particles-js"></div>
+		<div id="container"></div>
+        <pre class="fading"> 
+		<br>
+		<br>     
+<a ihref="#" class="glow"><pre>                                                                                **                                              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                **                                              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                **                                              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                **                                              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                **                                              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                ** ***  ****   **   ****           ***  ****    </pre></a>
+<a ihref="#" class="glow"><pre>                                                                           *** **  **** **** * **    ***  *  ***   **** **** *  </pre></a>
+<a ihref="#" class="glow"><pre>                                                                          ********* **   ****  **     ****  * ***   **   ****   </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **   ****  **         **      **  *   ***  **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **   ****  **         **      **  *   ***  **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **    **   **         **      ** **    *** **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **    **   **         **      ** ********  **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **    **   **         **      ** *******   **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                         **    **   **         **      ** **        **          </pre></a>
+<a ihref="#" class="glow"><pre>                                                                          **    **   ***         ********* ****    * ***        </pre></a>
+<a ihref="#" class="glow"><pre>                                                                           *****      ***          **** *** *******   ***       </pre></a>
+<a ihref="#" class="glow"><pre>                                                                            ***                          *** *****              </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                                 *****  ***                     </pre></a>
+<a ihref="#" class="glow"><pre>                                                                                                *     ****                      </pre></a>
+        <br>
+        <br>
+        </pre>         
+        <center>
+            <a class="glow">francis</a>
+            <br>
+            <br>
+			<br>
+            <a class="glow">marcus</a>
+			<br>
+            <br>
+			<br>
+            <a class="glow">dwight</a>
+        </center>
+		<script src="script.js"></script>
+    </body>
+</html>
